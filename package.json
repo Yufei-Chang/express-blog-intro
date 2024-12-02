@@ -1,0 +1,16 @@
+{
+  "name": "express-blog-intro",
+  "version": "1.0.0",
+  "description": "compito 02 dic",
+  "main": "app.js",
+  "scripts": {
+    "type": "modules",
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "author": "Chris",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
