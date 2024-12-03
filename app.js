@@ -7,8 +7,7 @@ const app = express();
 // Scelto il portale in cui avviare il server
 const port = 3000;
 // importo roba dall'altro file
-import posts from './post-list.js'
-
+const posts = require('./post-list');
 // Creo una rotta base
 app.get('/', (req, resp) => {
     // Come risposta torna la stringa del comando
@@ -25,10 +24,8 @@ app.get('/bacheca', (req, res) => {
   });
 
 // Faccio qualcosa con gli assets statici
-app.use('/img', express.static(path.join(__dirname, 'public')));
+app.use(express.static("public"));
 
 // Avvio il server
 app.listen(port, () => {
-
 });
-

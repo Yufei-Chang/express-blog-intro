@@ -4,7 +4,6 @@
   "description": "compito 02 dic",
   "main": "app.js",
   "scripts": {
-    "type": "modules",
     "start": "node app.js",
     "dev": "node --watch app.js"
   },

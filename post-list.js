@@ -3,7 +3,7 @@ const posts = [
         id: 1,
         title: 'Ciambellone',
         contenuto: 'Foto di una cosa che Homer Simpson ama',
-        image: '/img/ciambellone.jpeg',
+        image: "public/img/ciambellone.jpeg",
         tags: ['droga', 'veleno', 'mh'],
     },
     {
@@ -36,4 +36,4 @@ const posts = [
     },
 ];
 
-export default posts;
+module.exports = posts;
